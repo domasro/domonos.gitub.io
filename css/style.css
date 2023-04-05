@@ -1,0 +1,253 @@
+.row{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	padding: 30px 100px;
+}
+.blokc-1{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 30px;
+    color: #F9FBFB;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: #F9FBFB;
+}
+.text1{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.text-link{
+	font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 30px;
+    color: #F9FBFB;
+}
+.icon{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	justify-content: space-between;
+	width: 9%;
+}
+.button{
+	display: flex;
+	align-items: center;
+	padding: 10px 40px;
+	border-radius: 10px;
+	background: #7B57FE;
+	font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 30px;
+}
+.connect{
+	color: #F9FBFB;
+
+}
+
+
+
+.content{
+	display: flex;
+	flex-direction: column;
+	margin-top: 110px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 400px;
+}
+
+
+.boock{
+	display: flex;
+	align-items: center;
+	font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 90px;
+    text-transform: capitalize;
+    color: #F9FBFB;
+}
+.dom{
+	display: flex;
+	font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 34px;
+    color: rgba(200, 200, 200, 0.8);
+}
+
+.button-btn{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 25px;
+}
+.btn-1{
+	margin-right: 30px;
+}
+.dolosa{
+	padding: 18px 45px;
+	border-radius: 16px;
+	background: #7B57FE;
+	font-weight: 500;
+    font-size: 14px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.dolosa-2{
+	padding: 18px 45px;
+	border-radius: 16px;
+	border: 2px solid #7B57FE;
+	font-weight: 500;
+    font-size: 14px;
+    line-height: 34px;
+    background-color: #000000;
+    color: #F9FBFB;
+}
+
+.numbers{
+	display: flex;
+	margin-top: 45px;
+}
+
+.nowe-1{
+	margin-right: 30px;
+	font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 66px;
+    color: #F9FBFB;
+}
+.nowe-2{
+	margin-right: 30px;
+	font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 66px;
+    color: #F9FBFB; 
+}
+.nowe-3{
+	margin-right: 30px;
+	font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 66px;
+    color: #F9FBFB;    
+}
+.big-now-1{
+	display: flex;
+	justify-content: center;
+	font-family: 'Poppins';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #A1A1A1;
+}
+.big-now-2{
+	display: flex;
+	justify-content: center;
+	font-family: 'Poppins';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #A1A1A1;
+}
+.big-now-3{
+	display: flex;
+	justify-content: center;
+	font-family: 'Poppins';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #A1A1A1;
+    margin-bottom: 100px;
+}
+.hoto-1{
+	display: flex;
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 680px;
+    top: 320px;
+}
+.hoto-2{
+	display: flex;
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;    
+	position: absolute;
+    width: 250px;
+    height: 315px;
+    left: 950px;
+    top: 340px;
+}
+.hoto-3{
+	display: flex;
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;    
+	position: absolute;
+	width: 250px;
+    height: 315px;
+    left: 680px;
+    top: 740px;
+}
+.hoto-4{
+	display: flex;
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;    
+	position: absolute;
+	width: 250px;
+    height: 315px;
+    left: 950px;
+    top: 680px;
+}
+.carta-1{
+	position: sticky;
+    height: 221px;
+    left: 893px;
+}
+
+.carta-2{
+	position: sticky;
+    height: 221px;
+    left: 1183px;
+}
+.carta-3{
+	position: sticky;
+    height: 221px;
+    left: 893px;
+}
+.carta-4{
+    position: sticky;
+    height: 221px;
+    left: 1183px;
+}
+.main{
+	background-image: url(../img/fon.png);
+	background-position: center center;
+
+}
+
+
+
