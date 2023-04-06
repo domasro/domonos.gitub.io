@@ -1,0 +1,261 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background: url(../img/fon.png);
+   background-size: cover;
+   padding-top: 40px;
+   padding-bottom: 170px;
+   color: #F9FBFB;
+   font-size: 18px;
+   font-weight: 400;
+   font-family: 'Poppins', sans-serif;
+}
+.conteiner{
+    width: 1210px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+}
+.menu{
+    display: flex;
+    
+}
+.menu__logo{
+    margin-right: 110px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.menu__list{
+    display: flex;
+    align-items: center;
+}
+.menu__list p {
+    margin-right: 58px;
+}
+.block{
+    display: flex;
+}
+.klass{
+    display: flex;
+    align-items: center;
+    margin-right: 36px;
+}
+.btn__class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 217px;
+    height: 65px;    
+    background: #7B57FE;
+    border-radius: 10px;
+    color: #F9FBFB;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn__class img{
+    margin-left: 16px;
+}
+.klass img{
+    margin-left: 14px;
+    width: 20px;
+    height: 20px;
+}
+.content{
+    display: flex;
+    margin-top: 119px;
+    justify-content: space-between;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.big__text{
+    margin-bottom: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 90px;
+    text-transform: capitalize;
+}
+.big__esy__text{
+    margin-bottom: 56px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: rgba(200, 200, 200, 0.8);    
+}
+.two__btn{
+    display: flex;
+}
+.bonolu__btn-1{
+    display: flex;
+    width: 185px;
+    height: 71px;
+    background: #7B57FE;
+    border-radius: 16px;
+    margin-right: 32px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}
+.bonolu__btn-2{
+    display: flex;
+    width: 185px;
+    height: 71px;
+    border: 2px solid #7B57FE;
+    background: 0;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}
+.free__stil{
+    display: flex;
+    margin-top: 94px;
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+}
+.free__stil h2{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #A1A1A1;
+    margin-top: 18px;
+}
+.hislo-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 75px;
+}
+.hislo-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 77px;
+}
+.hislo-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.paint{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-right: 30px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10.6542px;
+    line-height: 18px;
+    color: rgba(255, 249, 242, 0.8);
+}
+.paint h2{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15.9813px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.block__one{
+    display: flex;
+    flex-direction: column;
+    margin-left: 96px;
+    margin-top: 68px;
+}
+.block__two{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+/*  Картинки первого блока*/
+
+.pool-1{
+    background: #A480D2;
+    border-radius: 14px;
+    width: 250px;
+    height: 315px;
+    margin-bottom: 38px;
+}
+.pool-1 img{
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+.pool-2{
+    background: #CB3800;
+    border-radius: 14px;
+    width: 250px;
+    height: 315px;
+}
+.pool-2 img{
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+/* Картинки второго блока */
+
+.dulo-1{
+    background: #9A2331;
+    border-radius: 14px;
+    width: 250px;
+    height: 315px;
+    margin-bottom: 49px;
+}
+.dulo-1 img{
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+.dulo-2{
+    background: #338AB2;
+    border-radius: 14px;
+    width: 250px;
+    height: 315px;
+}
+.dulo-2 img{
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.tosa{
+    display: flex;
+    justify-content: space-between;
+}
+.solo-1{
+    margin-left: 23px;
+}
+.solo-2{
+    margin-right: 23px;
+}
